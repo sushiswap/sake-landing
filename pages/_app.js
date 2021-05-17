@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import { useRouter } from "next/router";
 import Head from "next/head";
 
+import { AnimateSharedLayout } from "framer-motion";
 import * as gtag from "../core/analytics";
 import fontTheme from "../styles/font";
 import "../styles/globals.css";
@@ -24,7 +25,9 @@ function MyApp({ Component, pageProps }) {
         <title>{process.env.NEXT_PUBLIC_APP_NAME}</title>
         <meta name="viewport" content="minimum-scale=1, initial-scale=1, width=device-width" />
       </Head>
-      <Component {...pageProps} />
+      <AnimateSharedLayout>
+        <Component {...pageProps} />
+      </AnimateSharedLayout>
       <style jsx global>
         {fontTheme}
       </style>

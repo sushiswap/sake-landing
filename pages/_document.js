@@ -56,7 +56,7 @@ class MyDocument extends Document {
           <meta name="twitter:title" content={process.env.APP_NAME} />
           <meta name="twitter:description" content={process.env.APP_DESCRIPTION} />
           <meta name="twitter:image" content="/android-chrome-192x192.png" />
-          <meta name="twitter:creator" content="@MatthewLilley" />
+          <meta name="twitter:creator" content="@SAK3" />
 
           {/* FACEBOOK */}
           <meta property="og:type" content="website" />
@@ -65,7 +65,6 @@ class MyDocument extends Document {
           <meta property="og:site_name" content={process.env.APP_NAME} />
           <meta property="og:url" content={process.env.APP_URL} />
           <meta property="og:image" content="/apple-touch-icon.png" />
-          <script type="text/javascript" src="https://app.intotheblock.com/widget.js" />
           {/* Global Site Tag (gtag.js) - Google Analytics */}
           <script async src={`https://www.googletagmanager.com/gtag/js?id=${GA_TRACKING_ID}`} />
           <script

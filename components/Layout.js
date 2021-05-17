@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { MobileMenu, MobileSidebar, Sidebar as DesktopSidebar } from "../components";
+import { motion } from "framer-motion";
 
 const Layout = ({ children, currentPage }) => {
   const [sidebarOpen, setSidebarOpen] = useState(false);
@@ -10,7 +11,17 @@ const Layout = ({ children, currentPage }) => {
       <DesktopSidebar current={currentPage} />
       <div className="flex-1 overflow-auto focus:outline-none">
         <MobileMenu setSidebarOpen={setSidebarOpen} />
-        <main className="flex-1 relative z-0 overflow-y-auto bg-black">{children}</main>
+        <main className="flex-1 relative z-0 overflow-y-auto bg-black">
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{
+              delay: 0.2,
+            }}
+          >
+            {children}
+          </motion.div>
+        </main>
       </div>
     </div>
   );
