@@ -5,7 +5,24 @@ const TokenPage = () => {
     <Layout currentPage="token">
       <div className="pb-20">
         <div
-          className="relative w-full aspect-w-2 aspect-h-2 md:aspect-w-5 md:aspect-h-2"
+          className="hidden sm:block relative w-full aspect-w-5 aspect-h-2"
+          style={{
+            backgroundImage: `url('/images/miso.jpg')`,
+            backgroundPosition: "center",
+            backgroundSize: "cover",
+            backgroundRepeat: "no-repeat",
+          }}
+        >
+          <div className="brand-font px-10 lg:px-0 pt-14 md:pt-36 flex flex-col space-y-4  max-w-4xl mx-auto text-xl text-white">
+            <p>May 20th, 2021</p>
+            <p>888 bottles of SAKE</p>
+            <p>
+              Only Available for <a className="underline text-pinkish cursor-pointer">Purchase on MISO</a>
+            </p>
+          </div>
+        </div>
+        <div
+          className="block sm:hidden relative w-full aspect-w-2 aspect-h-2"
           style={{
             backgroundImage: `url('/images/miso.jpg')`,
             backgroundPosition: "center",
