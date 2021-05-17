@@ -16,16 +16,21 @@ module.exports = {
       },
       height: {
         100: "28rem",
+        110: "36rem",
         120: "48rem",
       },
       width: {
         100: "28rem",
+        110: "36rem",
         120: "48rem",
+      },
+      margin: {
+        "-100": "-28rem",
       },
     },
   },
   variants: {
     extend: {},
   },
-  plugins: [require("@tailwindcss/forms")],
+  plugins: [require("@tailwindcss/forms"), require("@tailwindcss/aspect-ratio")],
 };

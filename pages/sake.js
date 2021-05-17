@@ -7,7 +7,7 @@ const SakePage = () => {
       {/* Overflow for absolute circular graphics */}
       <div className="overflow-x-hidden">
         <div
-          className="relative w-full z-10 h-100 md:h-120"
+          className="relative w-full z-10 aspect-w-3 aspect-h-2"
           style={{
             backgroundImage: `url('/images/sake-12.jpg')`,
             backgroundPosition: "center",
@@ -15,9 +15,9 @@ const SakePage = () => {
             backgroundRepeat: "no-repeat",
           }}
         ></div>
-        <div className="max-w-xl lg:max-w-2xl mx-auto pb-16">
-          <div className="relative flex w-full mx-auto justify-center" style={{ marginTop: "-620px" }}>
-            <div className="bg-golden rounded-full w-120 h-120"></div>
+        <div className="max-w-xl lg:max-w-2xl mx-auto pb-10 md:pb-16">
+          <div className="relative flex w-full mx-auto justify-center -mt-96 md:-mt-100">
+            <div className="bg-golden rounded-full w-100 h-100 md:w-110 md:h-110"></div>
           </div>
         </div>
         <div className="max-w-4xl mx-auto">
@@ -58,8 +58,12 @@ const SakePage = () => {
           </div>
           <div className="relative">
             <div
-              className="absolute bg-golden rounded-full"
+              className="hidden md:block absolute bg-golden rounded-full"
               style={{ width: "680px", height: "680px", right: "-47%", top: "-18rem" }}
+            />
+            <div
+              className="block md:hidden absolute bg-golden rounded-full"
+              style={{ width: "400px", height: "400px", right: "-20%", top: "-10rem" }}
             />
           </div>
           <div className="z-10 relative px-10 lg:px-0 grid grid-cols-1 gap-16 md:grid-cols-2 md:gap-18 py-20">

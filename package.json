@@ -18,6 +18,7 @@
     "@fontsource/vt323": "^4.3.0",
     "@headlessui/react": "^1.2.0",
     "@heroicons/react": "^1.0.1",
+    "@tailwindcss/aspect-ratio": "^0.2.0",
     "@tailwindcss/forms": "^0.3.2",
     "autoprefixer": "^10.2.5",
     "framer-motion": "^4.1.16",

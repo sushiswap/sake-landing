@@ -11,7 +11,7 @@ const Layout = ({ children, currentPage }) => {
       <DesktopSidebar current={currentPage} />
       <div className="flex-1 overflow-auto focus:outline-none">
         <MobileMenu setSidebarOpen={setSidebarOpen} />
-        <main className="flex-1 relative z-0 overflow-y-auto bg-black">
+        <main className="flex-1 relative z-0 overflow-y-auto bg-black pb-20 sm:pb-0">
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}

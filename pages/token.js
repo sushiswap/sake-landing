@@ -7,7 +7,7 @@ const TokenPage = () => {
     <Layout currentPage="token">
       <div className="pb-20">
         <div
-          className="relative w-full h-72 md:h-100"
+          className="relative w-full aspect-w-5 aspect-h-2"
           style={{
             backgroundImage: `url('/images/miso.jpg')`,
             backgroundPosition: "center",

@@ -6,7 +6,7 @@ const ArtistPage = () => {
   return (
     <Layout currentPage="artist">
       {/* override background */}
-      <div className="bg-white md:p-10">
+      <div className="bg-white">
         <div
           className="relative w-full z-10 min-h-screen"
           style={{
@@ -18,7 +18,9 @@ const ArtistPage = () => {
         ></div>
         <div className="max-w-4xl mx-auto py-10">
           <div className="w-full mx-auto text-center pb-10">
-            <div className="brand-font inline-block text-white text-2xl px-20 py-4 bg-black">Jonathan Jay Lee</div>
+            <div className="brand-font inline-block text-white text-2xl px-10 md:px-20 py-4 bg-black">
+              Jonathan Jay Lee
+            </div>
           </div>
           <div className="px-10 lg:px-0 grid grid-cols-1 gap-16 md:grid-cols-2 md:gap-28 py-10">
             <div className="brand-font text-black text-lg flex flex-col space-y-4">

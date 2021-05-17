@@ -7,7 +7,7 @@ const BreweryPage = () => {
       {/* override background */}
       <div className="bg-white">
         <div
-          className="relative w-full h-72 md:h-100"
+          className="relative w-full h-72 aspect-w-2 aspect-h-1"
           style={{
             backgroundImage: `url('/images/sake-brewery.jpg')`,
             backgroundPosition: "center",
@@ -63,7 +63,7 @@ const BreweryPage = () => {
           </div>
         </div>
         <div
-          className="z-10 relative w-full h-100 md:h-120"
+          className="z-10 relative w-full aspect-w-3 aspect-h-2"
           style={{
             backgroundImage: `url('/images/sake-rare-styles.jpg')`,
             backgroundPosition: "center",
