@@ -22,7 +22,7 @@ const WelcomePage = () => {
           </div>
           <div className="mx-auto text-center w-full">
             <div className="w-56 md:w-w-80 mx-auto">
-              <Image src="/images/logo-white.png" width={"350px"} height={"103px"} layout={"responsive"} />
+              <Image src="/images/sake-logo.png" width={"350px"} height={"103px"} layout={"responsive"} />
             </div>
           </div>
           <div className="mx-auto space-y-4 text-3xl text-white">
