@@ -2,6 +2,8 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 
+import Countdown from "react-countdown";
+
 const navigation = [
   { name: "WELCOME", href: "/", id: "welcome" },
   { name: "TOKEN", href: "/token", id: "token" },
@@ -9,7 +11,6 @@ const navigation = [
   { name: "BREWERY", href: "/brewery", id: "brewery" },
   { name: "ARCHITECT", href: "/architect", id: "architect" },
   { name: "ARTIST", href: "/artist", id: "artist" },
-  { name: "PURCHASE", href: "/purchase", id: "purchase" },
 ];
 
 const secondaryNavigation = [
@@ -28,14 +29,13 @@ const Sidebar = ({ current }) => {
       {/* Static sidebar for desktop */}
       <div className="hidden lg:flex lg:flex-shrink-0">
         <div className="flex flex-col w-72">
-          {/* Sidebar component, swap this element with another sidebar if you like */}
           <div className="flex flex-col flex-grow bg-black pt-14 pb-4 overflow-y-auto border-r border-secondary">
             <div className="flex items-center flex-shrink-0 px-11">
               <div className="h-8 w-auto">
                 <Image src="/images/logo-bg.png" width={"161px"} height={"58px"} />
               </div>
             </div>
-            <nav className="pt-14 flex-1 flex flex-col divide-y divide-gray-800 overflow-y-auto" aria-label="Sidebar">
+            <nav className="pt-14 flex-1 flex flex-col justify-between overflow-y-auto " aria-label="Sidebar">
               <div className="space-y-2">
                 {navigation.map((item) => (
                   <div className="flex flex-row items-center">
@@ -52,19 +52,58 @@ const Sidebar = ({ current }) => {
                     </Link>
                   </div>
                 ))}
-              </div>
-              <div className="mt-6 pt-6">
-                <div className="px-11 space-x-4 flex flex-row">
-                  {secondaryNavigation.map((item) => (
-                    <a
-                      key={item.name}
-                      href={item.href}
-                      className="group flex items-center text-base leading-6 font-medium rounded-md text-gray-100 hover:text-white hover:bg-gray-600"
+                <div className="flex flex-row items-center">
+                  <div className={"bg-black w-8 h-2 mr-4"} />
+                  <a href="https://miso.sushi.com">
+                    <div
+                      className={
+                        "flex flex-row text-secondary text-xl hover:text-white group items-center py-2 leading-6 cursor-pointer"
+                      }
                     >
-                      {/* <item.icon className="mr-4 h-6 w-6 text-gray-200" aria-hidden="true" /> */}
-                      {item.name}
-                    </a>
-                  ))}
+                      <div className="pr-4">PURCHASE</div>
+                      <span className="inline-flex items-center px-3 py-1 text-sm font-medium bg-gray-900 text-white">
+                        <Countdown date={new Date("2021-05-20T00:00:00")}>
+                          <>
+                            <div className="relative">
+                              <svg
+                                className="absolute animate-ping -ml-0.5 mr-1.5 h-2 w-2 text-green-400"
+                                fill="currentColor"
+                                viewBox="0 0 8 8"
+                              >
+                                <circle cx={4} cy={4} r={3} />
+                              </svg>
+                              <svg
+                                className="-ml-0.5 mr-1.5 h-2 w-2 text-green-400"
+                                fill="currentColor"
+                                viewBox="0 0 8 8"
+                              >
+                                <circle cx={4} cy={4} r={3} />
+                              </svg>
+                            </div>
+                            LIVE
+                          </>
+                        </Countdown>
+                      </span>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              {/* Bottom Navigation */}
+              <div className="mt-6 py-4">
+                <div className="flex flex-row space-x-2 px-11 pb-4">
+                  <a href="https://discord.com" target="_blank" rel="noopener noreferrer">
+                    <Image src="/images/discord-icon.jpg" width={"30px"} height={"30px"} />
+                  </a>
+                  <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+                    <Image src="/images/twitter-icon.jpg" width={"30px"} height={"30px"} />
+                  </a>
+                  <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+                    <Image src="/images/instagram-icon.jpg" width={"30px"} height={"30px"} />
+                  </a>
+                </div>
+                <div className="px-11">
+                  <div className="text-white">SAKE, 2021</div>
+                  <div className="text-white">Powered by SUSHI</div>
                 </div>
               </div>
             </nav>
