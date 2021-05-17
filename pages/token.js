@@ -1,47 +1,53 @@
-import { useState } from "react";
-import { MenuAlt1Icon } from "@heroicons/react/outline";
 import Image from "next/image";
 
-import { Layout, MobileMenu, MobileSidebar, Sidebar as DesktopSidebar, YoutubeEmbed } from "../components";
+import { Layout } from "../components";
 
 const TokenPage = () => {
   return (
     <Layout currentPage="token">
       <div
-        className="relative h-full"
+        className="relative w-full"
         style={{
-          backgroundImage: `radial-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)), url('/images/topograph.jpg')`,
-          backgroundPosition: "center",
+          backgroundImage: `url('/images/miso.jpg')`,
           backgroundSize: "cover",
           backgroundRepeat: "no-repeat",
+          height: "460px",
         }}
       >
-        <div className="flex flex-col space-y-10 pt-12 pb-44 max-w-2xl mx-auto">
-          <div className="mx-auto flex flex-row justify-center w-full">
-            <Image src="/images/bottle-black-narrow.png" width={"80px"} height={"160px"} />
-            <Image src="/images/bottle-white-narrow.png" width={"80px"} height={"160px"} />
-          </div>
-          <div className="mx-auto text-center w-full">
-            <Image src="/images/logo-white.png" width={"350px"} height={"103px"} />
-          </div>
-          <div className="mx-auto space-y-4 text-4xl text-white">
-            <div className="text-center">A Tokenised Sake Bridging Tradition and</div>
-            <div className="text-center">Technology With Quality Design</div>
-          </div>
-          <div className="pt-6 mx-auto space-y-2 text-lg text-white text-center">
-            <div>Curated by Sake Samurai Elliot Faber</div>
-            <div>Produced by Kitanishi Shuzo</div>
-            <div>Bottle designed by BIG Architects</div>
-            <div>Featuring the art of Jonathan Jay Lee</div>
-          </div>
-          <div className="pt-4 mx-auto space-y-2 text-lg text-white text-center">
-            <div>Only Available For Purchase on MISO</div>
+        <div className="flex flex-col space-y-4 pt-36 max-w-4xl mx-auto text-lg text-white">
+          <p>May 20th, 2021</p>
+          <p>888 bottles of SAKE</p>
+          <p>Only Available for Purchase on MISO</p>
+        </div>
+      </div>
+      <div className="max-w-lg mx-auto pb-16">
+        <div className="relative w-full -mt-10">
+          <div className="px-10 py-6 bg-white">
+            <div className="text-black text-center text-2xl">WORLD’S FIRST TOKENIZED SAKE</div>
           </div>
         </div>
       </div>
-      <div className="max-w-4xl mx-auto pb-24">
-        <div className="w-full -mt-20">
-          <YoutubeEmbed embedId="rokGy0huYEA" />
+      <div className="max-w-4xl mx-auto">
+        <div className="grid grid-cols-2 gap-28">
+          <div className="text-white text-lg text-justify flex flex-col space-y-4">
+            <p>SAKE is only available for purchase on MISO.</p>
+            <p>On May 20th, the Dutch auction to own 1 of 888 bottles of SAKE begins.</p>
+            <p>
+              Only 888 bottles of SAKE will ever be made. To own a bottle of SAKE, you must purchase at least 1 of 888
+              SAKE tokens. You can gift, sell, or redeem a SAKE token to receive your bottle of SAK (almost) anywhere in
+              the world.
+            </p>
+            <p> Brewing begins on May 21, 2021.</p>
+          </div>
+          <div className="text-white text-lg flex flex-col space-y-4">
+            <p>SAKΞはMISOでのみ購入できます。</p>
+            <p>5月20日、888本のSAKΞのうち1本を所有するオランダ のオークションが始まります。</p>
+            <p>
+              SAKΞのボトルを所有するには、$ SUSHIを使用して888 SKE（SAK1）トークンの少なくとも1つに正常に入札する
+              必要があります。 SKEトークンは、SAKΞボトルの所有権 を表します。 トークンを保持したり、ギフトとして贈ったり
+              、交換して新しいSAKΞのボトルを直接発送したりできま す。
+            </p>
+          </div>
         </div>
       </div>
     </Layout>
