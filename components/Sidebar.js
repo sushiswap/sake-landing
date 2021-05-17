@@ -97,7 +97,7 @@ export const Navigation = ({ current }) => {
         {/* Bottom Navigation */}
         <div className="mt-6 py-4 brand-font">
           <div className="flex flex-row space-x-2 px-11 pb-4">
-            <a href="discord.gg/MYFm8nn4QB" target="_blank" rel="noopener noreferrer">
+            <a href="https://discord.gg/MYFm8nn4QB" target="_blank" rel="noopener noreferrer">
               <Image src="/images/discord-icon.jpg" width={"30px"} height={"30px"} />
             </a>
             <a href="https://twitter.com/0xSAKE" target="_blank" rel="noopener noreferrer">
