@@ -18,10 +18,10 @@ const ArchitectPage = () => {
         ></div>
         <div className="max-w-4xl mx-auto py-10">
           <div className="w-full mx-auto text-center pb-10">
-            <div className="inline-block text-white text-2xl px-20 py-4 bg-black">BIG DK</div>
+            <div className="brand-font inline-block text-white text-2xl px-20 py-4 bg-black">BIG DK</div>
           </div>
           <div className="px-10 lg:px-0 grid grid-cols-1 gap-16 md:grid-cols-2 md:gap-28 py-10">
-            <div className="text-black text-lg text-justify flex flex-col space-y-4 pr-0 md:pr-14">
+            <div className="brand-font text-black text-lg flex flex-col space-y-4">
               <p>For SAKE, Bjarke Ingels Group's (BIG) designed both a bottle and a work of art.</p>
               <p>
                 A world-renowned group of designers, inventors, and architects, BIG's award-winning work can be seen
@@ -43,7 +43,7 @@ const ArchitectPage = () => {
 
         <div className="max-w-4xl mx-auto">
           <div className="px-10 lg:px-0 grid grid-cols-1 gap-16 md:grid-cols-2 md:gap-28 py-10">
-            <div className="text-black text-lg text-justify flex flex-col space-y-4 pr-0 md:pr-14">
+            <div className="brand-font text-black text-lg flex flex-col space-y-4">
               <p>
                 BIG's SAKE bottle fuses the historic art of sake brewing with strong contemporary design. A tactile
                 horizontal pattern pays homage to the traditional Japanese wave and rice field terraces. The cork

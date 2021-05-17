@@ -15,7 +15,7 @@ const TokenPage = () => {
             backgroundRepeat: "no-repeat",
           }}
         >
-          <div className="px-10 lg:px-0 pt-14 md:pt-36 flex flex-col space-y-4  max-w-4xl mx-auto text-lg text-white">
+          <div className="brand-font px-10 lg:px-0 pt-14 md:pt-36 flex flex-col space-y-4  max-w-4xl mx-auto text-xl text-white">
             <p>May 20th, 2021</p>
             <p>888 bottles of SAKE</p>
             <p>
@@ -26,13 +26,13 @@ const TokenPage = () => {
         <div className="px-10 md:max-w-lg mx-auto pb-10 md:pb-16">
           <div className="relative w-full -mt-10">
             <div className="px-6 md:px-10 py-6 bg-white">
-              <div className="text-black text-center text-sm md:text-xl">WORLD’S FIRST TOKENIZED SAKE</div>
+              <div className="brand-font text-black text-center text-sm md:text-xl">WORLD’S FIRST TOKENIZED SAKE</div>
             </div>
           </div>
         </div>
         <div className="max-w-4xl mx-auto">
           <div className="px-10 lg:px-0 grid grid-cols-1 gap-16 md:grid-cols-2 md:gap-28">
-            <div className="text-white text-base md:text-lg text-justify flex flex-col space-y-4">
+            <div className="brand-font text-white text-base md:text-lg text-justify flex flex-col space-y-4">
               <p>SAKE is only available for purchase on MISO.</p>
               <p>On May 20th, the Dutch auction to own 1 of 888 bottles of SAKE begins.</p>
               <p>

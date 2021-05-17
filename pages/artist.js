@@ -18,10 +18,10 @@ const ArtistPage = () => {
         ></div>
         <div className="max-w-4xl mx-auto py-10">
           <div className="w-full mx-auto text-center pb-10">
-            <div className="inline-block text-white text-2xl px-20 py-4 bg-black">Jonathan Jay Lee</div>
+            <div className="brand-font inline-block text-white text-2xl px-20 py-4 bg-black">Jonathan Jay Lee</div>
           </div>
           <div className="px-10 lg:px-0 grid grid-cols-1 gap-16 md:grid-cols-2 md:gap-28 py-10">
-            <div className="text-black text-lg text-justify flex flex-col space-y-4 pr-0 md:pr-14">
+            <div className="brand-font text-black text-lg flex flex-col space-y-4">
               <p>SAKE features unique art from award-winning artist Jonathan Jay Lee.</p>
               <p>
                 Lee's past clients include Marvel, Disney Plus, Apple, and many more. His accolades are too numerous to
@@ -44,7 +44,7 @@ const ArtistPage = () => {
         </div>
         <div className="max-w-4xl mx-auto">
           <div className="px-10 lg:px-0 grid grid-cols-1 gap-16 md:grid-cols-2 md:gap-28 py-10">
-            <div className="text-black text-lg text-justify flex flex-col space-y-4 pr-0 md:pr-14">
+            <div className="brand-font text-black text-lg flex flex-col space-y-4">
               <p>
                 Set against Neo Tokyo, Lee's work features both youthful hipsters and traditional salarymen enjoying
                 SAKE, showcasing that sake is for everyone—with SAKE bridging the gap between tradition and tomorrow.

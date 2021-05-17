@@ -49,7 +49,7 @@ export const Navigation = ({ current }) => {
                 <div
                   className={classNames(
                     item.id === current ? "text-white" : "text-secondary",
-                    "text-xl hover:text-white group flex items-center py-2 leading-6 cursor-pointer"
+                    "brand-font text-xl hover:text-white group flex items-center py-2 leading-6 cursor-pointer"
                   )}
                 >
                   {item.name}
@@ -65,7 +65,7 @@ export const Navigation = ({ current }) => {
                   "flex flex-row text-secondary text-xl hover:text-white group items-center py-2 leading-6 cursor-pointer"
                 }
               >
-                <div className="pr-4">PURCHASE</div>
+                <div className="pr-4 brand-font">PURCHASE</div>
                 <span className="inline-flex items-center px-3 py-1 text-sm font-medium bg-gray-900 text-white">
                   <Countdown date={new Date("2021-05-20T00:00:00")}>
                     <>
@@ -90,7 +90,7 @@ export const Navigation = ({ current }) => {
           </div>
         </div>
         {/* Bottom Navigation */}
-        <div className="mt-6 py-4">
+        <div className="mt-6 py-4 brand-font">
           <div className="flex flex-row space-x-2 px-11 pb-4">
             <a href="https://discord.com" target="_blank" rel="noopener noreferrer">
               <Image src="/images/discord-icon.jpg" width={"30px"} height={"30px"} />
@@ -103,7 +103,7 @@ export const Navigation = ({ current }) => {
             </a>
           </div>
           <div className="px-11">
-            <div className="text-white">SAKE, 2021</div>
+            <div className="text-white">SAKE 2021,</div>
             <div className="text-white">Powered by SUSHI</div>
           </div>
         </div>

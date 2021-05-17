@@ -15,7 +15,7 @@ const WelcomePage = () => {
           backgroundRepeat: "no-repeat",
         }}
       >
-        <div className="flex flex-col space-y-4 md:space-y-10 px-6 pt-12 pb-44 max-w-2xl mx-auto">
+        <div className="brand-font flex flex-col space-y-4 md:space-y-10 px-6 pt-12 pb-44 max-w-3xl mx-auto">
           <div className="mx-auto flex flex-row justify-center w-full">
             <Image src="/images/bottle-black-narrow.png" width={"80px"} height={"160px"} />
             <Image src="/images/bottle-white-narrow.png" width={"80px"} height={"160px"} />

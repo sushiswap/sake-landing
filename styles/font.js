@@ -8,7 +8,6 @@ export default css.global`
     font-family: "bpdotssquaresbold";
     src: url("/fonts/BPdotsSquareBold-webfont.eot");
     src: url("/fonts/BPdotsSquareBold-webfont.eot?#iefix") format("embedded-opentype"),
-      url("/fonts/BPdotsSquareBold-webfont.woff2") format("woff2"),
       url("/fonts/BPdotsSquareBold-webfont.woff") format("woff"),
       url("/fonts/BPdotsSquareBold-webfont.ttf") format("truetype"),
       url("/fonts/BPdotsSquareBold-webfont.svg#bpdotssquaresbold") format("svg");

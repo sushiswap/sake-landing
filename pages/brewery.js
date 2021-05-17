@@ -17,10 +17,10 @@ const BreweryPage = () => {
         ></div>
         <div className="max-w-4xl mx-auto py-10">
           <div className="w-full mx-auto text-center">
-            <div className="inline-block text-white text-2xl px-20 py-4 bg-black">1894</div>
+            <div className="brand-font inline-block text-white text-2xl px-20 py-4 bg-black">1894</div>
           </div>
           <div className="px-10 lg:px-0 grid grid-cols-1 gap-16 md:grid-cols-2 md:gap-28 py-10">
-            <div className="text-black text-lg text-justify flex flex-col space-y-4 pr-0 md:pr-14">
+            <div className="brand-font text-black text-lg flex flex-col space-y-4 ">
               <p>With SAKE, Bunraku uses time-honored tradition to create an exceedingly rare and high-quality sake.</p>
               <p>
                 Founded in 1894 by Kamekichi Kitanishi, Bunraku's closely guarded recipes and methods of sake production
@@ -47,7 +47,7 @@ const BreweryPage = () => {
         ></div>
         <div className="max-w-4xl mx-auto py-10">
           <div className="px-10 lg:px-0 grid grid-cols-1 gap-16 md:grid-cols-2 md:gap-28 py-10">
-            <div className="text-black text-lg text-justify flex flex-col space-y-4 pr-0 md:pr-14">
+            <div className="brand-font text-black text-lg flex flex-col space-y-4">
               <p>
                 Brother and sister Naoyuki and Mayuko run the current generation of Bunraku. With over a century of
                 excellence and a willingness to experiment where others aren't, the Bunraku brand is celebrated across

@@ -15,10 +15,9 @@ a {
   box-sizing: border-box;
 } */
 
-.pixelated-title {
-  font-family: vt323;
+.brand-font {
+  font-family: "bpdotssquaresbold";
   font-weight: 700;
-  font-size: 22px;
 }
 
 @tailwind base;

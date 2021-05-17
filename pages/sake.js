@@ -21,8 +21,8 @@ const SakePage = () => {
           </div>
         </div>
         <div className="max-w-4xl mx-auto">
-          <div className="px-10 lg:px-0 grid grid-cols-1 gap-16 md:grid-cols-2 md:gap-20 pb-20">
-            <div className="text-white text-lg text-justify flex flex-col space-y-4 pr-0 md:pr-14">
+          <div className="px-10 lg:px-0 grid grid-cols-1 gap-16 md:grid-cols-2 md:gap-18 pb-20">
+            <div className="brand-font text-white text-lg flex flex-col space-y-4 pr-0">
               <p>
                 SAKE is an extremely rare style of sake: Junmai Daiginjo Muroka Nama Genshu Kimoto (純米大吟醸無濾過
                 生原酒生酛).
@@ -62,8 +62,8 @@ const SakePage = () => {
               style={{ width: "680px", height: "680px", right: "-47%", top: "-18rem" }}
             />
           </div>
-          <div className="z-10 relative px-10 lg:px-0 grid grid-cols-1 gap-16 md:grid-cols-2 md:gap-20 py-20">
-            <div className="text-white text-lg text-justify flex flex-col space-y-4 pr-0 md:pr-14">
+          <div className="z-10 relative px-10 lg:px-0 grid grid-cols-1 gap-16 md:grid-cols-2 md:gap-18 py-20">
+            <div className="brand-font text-white text-lg flex flex-col space-y-4 ">
               <p>
                 "Muroka Nama Genshu" (無濾過生原酒) sake is unfiltered unpasteurized, and undiluted. By preserving the
                 natural flavors and aromas throughout the brewing process, SAKE preserves its natural coloring and high

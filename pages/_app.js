@@ -3,6 +3,7 @@ import { useRouter } from "next/router";
 import Head from "next/head";
 
 import * as gtag from "../core/analytics";
+import fontTheme from "../styles/font";
 import "../styles/globals.css";
 
 function MyApp({ Component, pageProps }) {
@@ -24,6 +25,9 @@ function MyApp({ Component, pageProps }) {
         <meta name="viewport" content="minimum-scale=1, initial-scale=1, width=device-width" />
       </Head>
       <Component {...pageProps} />
+      <style jsx global>
+        {fontTheme}
+      </style>
     </>
   );
 }
