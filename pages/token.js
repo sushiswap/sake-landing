@@ -7,7 +7,7 @@ const TokenPage = () => {
         <div
           className="hidden sm:block relative w-full aspect-w-5 aspect-h-2"
           style={{
-            backgroundImage: `url('/images/miso.jpg')`,
+            backgroundImage: `url('/images/miso-bowls.jpg')`,
             backgroundPosition: "center",
             backgroundSize: "cover",
             backgroundRepeat: "no-repeat",
@@ -24,7 +24,7 @@ const TokenPage = () => {
         <div
           className="block sm:hidden relative w-full aspect-w-2 aspect-h-2"
           style={{
-            backgroundImage: `url('/images/miso.jpg')`,
+            backgroundImage: `url('/images/miso-bowls.jpg')`,
             backgroundPosition: "center",
             backgroundSize: "cover",
             backgroundRepeat: "no-repeat",
