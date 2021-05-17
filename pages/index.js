@@ -36,14 +36,22 @@ const WelcomePage = () => {
           </div>
           <div className="pt-2 md:pt-4 mx-auto space-y-2 text-lg text-white text-center">
             <div>
-              Only Available For <a className="underline text-pinkish cursor-pointer">Purchase on MISO</a>
+              Only Available For{" "}
+              <a
+                className="underline text-pinkish cursor-pointer"
+                href="https://miso.sushi.com/auctions/0x5cFEb913fe8aE7e5E63E5930F044f36Ba4B882aB"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Purchase on MISO
+              </a>
             </div>
           </div>
         </div>
       </div>
       <div className="max-w-4xl mx-auto pb-24">
         <div className="w-full -mt-20">
-          <YoutubeEmbed embedId="rokGy0huYEA" />
+          <YoutubeEmbed embedId="Q3FZkPLxN74" />
         </div>
       </div>
     </Layout>

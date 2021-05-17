@@ -59,7 +59,11 @@ export const Navigation = ({ current }) => {
           ))}
           <div className="flex flex-row items-center">
             <div className={"bg-black w-8 h-2 mr-4"} />
-            <a href="#">
+            <a
+              href="https://miso.sushi.com/auctions/0x5cFEb913fe8aE7e5E63E5930F044f36Ba4B882aB"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               {/* <div
                 className={
                   "flex flex-row text-secondary text-xl hover:text-white group items-center py-2 leading-6 cursor-pointer"
@@ -68,7 +72,7 @@ export const Navigation = ({ current }) => {
               <div className={"flex flex-row text-disabled text-xl group items-center py-2 leading-6"}>
                 <div className="pr-4 brand-font">PURCHASE</div>
                 <span className="inline-flex items-center px-3 py-1 text-sm font-medium bg-gray-900 text-white">
-                  <Countdown date={new Date("2021-05-20T00:00:00")}>
+                  <Countdown date={new Date("2021-05-20T00:00:00Z")}>
                     <>
                       <div className="relative">
                         <svg

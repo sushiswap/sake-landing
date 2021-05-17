@@ -17,7 +17,15 @@ const TokenPage = () => {
             <p>May 20th, 2021</p>
             <p>888 bottles of SAKE</p>
             <p>
-              Only Available for <a className="underline text-pinkish cursor-pointer">Purchase on MISO</a>
+              Only Available for{" "}
+              <a
+                className="underline text-pinkish cursor-pointer"
+                href="https://miso.sushi.com/auctions/0x5cFEb913fe8aE7e5E63E5930F044f36Ba4B882aB"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Purchase on MISO
+              </a>
             </p>
           </div>
         </div>
