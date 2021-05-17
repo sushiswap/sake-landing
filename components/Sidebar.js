@@ -1,14 +1,15 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 const navigation = [
-  { name: "WELCOME", href: "#", current: true },
-  { name: "TOKEN", href: "#", current: false },
-  { name: "SAKE", href: "#", current: false },
-  { name: "BREWERY", href: "#", current: false },
-  { name: "ARCHITECT", href: "#", current: false },
-  { name: "ARTIST", href: "#", current: false },
-  { name: "PURCHASE", href: "#", current: false },
+  { name: "WELCOME", href: "/", id: "welcome" },
+  { name: "TOKEN", href: "/token", id: "token" },
+  { name: "SAKE", href: "/sake", id: "sake" },
+  { name: "BREWERY", href: "/brewery", id: "brewery" },
+  { name: "ARCHITECT", href: "/architect", id: "architect" },
+  { name: "ARTIST", href: "/artist", id: "artist" },
+  { name: "PURCHASE", href: "/purchase", id: "purchase" },
 ];
 
 const secondaryNavigation = [
@@ -21,7 +22,7 @@ function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
 }
 
-const Sidebar = ({ sidebarOpen, setSidebarOpen }) => {
+const Sidebar = ({ current }) => {
   return (
     <>
       {/* Static sidebar for desktop */}
@@ -38,18 +39,17 @@ const Sidebar = ({ sidebarOpen, setSidebarOpen }) => {
               <div className="space-y-2">
                 {navigation.map((item) => (
                   <div className="flex flex-row items-center">
-                    <div className={classNames(item.current ? "bg-white" : "bg-black", "w-8 h-2 mr-4")} />
-                    <a
-                      key={item.name}
-                      href={item.href}
-                      className={classNames(
-                        item.current ? "text-white" : "text-secondary",
-                        "text-xl hover:text-white group flex items-center py-2 leading-6"
-                      )}
-                      aria-current={item.current ? "page" : undefined}
-                    >
-                      {item.name}
-                    </a>
+                    <div className={classNames(item.id === current ? "bg-white" : "bg-black", "w-8 h-2 mr-4")} />
+                    <Link key={item.name} href={item.href}>
+                      <div
+                        className={classNames(
+                          item.id === current ? "text-white" : "text-secondary",
+                          "text-xl hover:text-white group flex items-center py-2 leading-6 cursor-pointer"
+                        )}
+                      >
+                        {item.name}
+                      </div>
+                    </Link>
                   </div>
                 ))}
               </div>

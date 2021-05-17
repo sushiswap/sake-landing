@@ -1,11 +1,12 @@
 import { useState } from "react";
+import { MenuAlt1Icon } from "@heroicons/react/outline";
 import Image from "next/image";
 
 import { Layout, MobileMenu, MobileSidebar, Sidebar as DesktopSidebar, YoutubeEmbed } from "../components";
 
-const WelcomePage = () => {
+const TokenPage = () => {
   return (
-    <Layout currentPage="welcome">
+    <Layout currentPage="token">
       <div
         className="relative h-full"
         style={{
@@ -47,4 +48,4 @@ const WelcomePage = () => {
   );
 };
 
-export default WelcomePage;
+export default TokenPage;
