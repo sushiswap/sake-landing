@@ -7,21 +7,20 @@ const BreweryPage = () => {
       {/* override background */}
       <div className="bg-white">
         <div
-          className="relative w-full z-10"
+          className="relative w-full h-72 md:h-100"
           style={{
             backgroundImage: `url('/images/sake-brewery.jpg')`,
             backgroundPosition: "center",
             backgroundSize: "cover",
             backgroundRepeat: "no-repeat",
-            height: "584px",
           }}
         ></div>
         <div className="max-w-4xl mx-auto py-10">
           <div className="w-full mx-auto text-center">
             <div className="inline-block text-white text-2xl px-20 py-4 bg-black">1894</div>
           </div>
-          <div className="grid grid-cols-2 gap-20 py-10">
-            <div className="text-black text-lg text-justify flex flex-col space-y-4 pr-14">
+          <div className="px-10 lg:px-0 grid grid-cols-1 gap-16 md:grid-cols-2 md:gap-28 py-10">
+            <div className="text-black text-lg text-justify flex flex-col space-y-4 pr-0 md:pr-14">
               <p>With SAKE, Bunraku uses time-honored tradition to create an exceedingly rare and high-quality sake.</p>
               <p>
                 Founded in 1894 by Kamekichi Kitanishi, Bunraku's closely guarded recipes and methods of sake production
@@ -38,18 +37,17 @@ const BreweryPage = () => {
           </div>
         </div>
         <div
-          className="z-10 relative w-full"
+          className="z-10 relative w-full h-72 md:h-100"
           style={{
             backgroundImage: `url('/images/sake-vintage.jpg')`,
             backgroundPosition: "center",
             backgroundSize: "cover",
             backgroundRepeat: "no-repeat",
-            height: "432px",
           }}
         ></div>
         <div className="max-w-4xl mx-auto py-10">
-          <div className="grid grid-cols-2 gap-20 py-10">
-            <div className="text-black text-lg text-justify flex flex-col space-y-4 pr-14">
+          <div className="px-10 lg:px-0 grid grid-cols-1 gap-16 md:grid-cols-2 md:gap-28 py-10">
+            <div className="text-black text-lg text-justify flex flex-col space-y-4 pr-0 md:pr-14">
               <p>
                 Brother and sister Naoyuki and Mayuko run the current generation of Bunraku. With over a century of
                 excellence and a willingness to experiment where others aren't, the Bunraku brand is celebrated across
@@ -65,13 +63,12 @@ const BreweryPage = () => {
           </div>
         </div>
         <div
-          className="z-10 relative w-full"
+          className="z-10 relative w-full h-100 md:h-120"
           style={{
             backgroundImage: `url('/images/sake-rare-styles.jpg')`,
             backgroundPosition: "center",
             backgroundSize: "cover",
             backgroundRepeat: "no-repeat",
-            height: "764px",
           }}
         ></div>
       </div>

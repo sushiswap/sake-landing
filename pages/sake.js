@@ -7,23 +7,22 @@ const SakePage = () => {
       {/* Overflow for absolute circular graphics */}
       <div className="overflow-x-hidden">
         <div
-          className="relative w-full z-10"
+          className="relative w-full z-10 h-100 md:h-120"
           style={{
             backgroundImage: `url('/images/sake-12.jpg')`,
             backgroundPosition: "center",
             backgroundSize: "cover",
             backgroundRepeat: "no-repeat",
-            height: "764px",
           }}
         ></div>
-        <div className="max-w-2xl mx-auto pb-16">
-          <div className="relative w-full" style={{ marginTop: "-550px" }}>
-            <div className="bg-golden rounded-full" style={{ width: "680px", height: "680px" }}></div>
+        <div className="max-w-xl lg:max-w-2xl mx-auto pb-16">
+          <div className="relative flex w-full mx-auto justify-center" style={{ marginTop: "-620px" }}>
+            <div className="bg-golden rounded-full w-120 h-120"></div>
           </div>
         </div>
         <div className="max-w-4xl mx-auto">
-          <div className="grid grid-cols-2 gap-20 pb-20">
-            <div className="text-white text-lg text-justify flex flex-col space-y-4 pr-14">
+          <div className="px-10 lg:px-0 grid grid-cols-1 gap-16 md:grid-cols-2 md:gap-20 pb-20">
+            <div className="text-white text-lg text-justify flex flex-col space-y-4 pr-0 md:pr-14">
               <p>
                 SAKE is an extremely rare style of sake: Junmai Daiginjo Muroka Nama Genshu Kimoto (純米大吟醸無濾過
                 生原酒生酛).
@@ -63,8 +62,8 @@ const SakePage = () => {
               style={{ width: "680px", height: "680px", right: "-47%", top: "-18rem" }}
             />
           </div>
-          <div className="z-10 relative grid grid-cols-2 gap-20 py-20">
-            <div className="text-white text-lg text-justify flex flex-col space-y-4 pr-14">
+          <div className="z-10 relative px-10 lg:px-0 grid grid-cols-1 gap-16 md:grid-cols-2 md:gap-20 py-20">
+            <div className="text-white text-lg text-justify flex flex-col space-y-4 pr-0 md:pr-14">
               <p>
                 "Muroka Nama Genshu" (無濾過生原酒) sake is unfiltered unpasteurized, and undiluted. By preserving the
                 natural flavors and aromas throughout the brewing process, SAKE preserves its natural coloring and high

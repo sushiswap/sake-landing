@@ -15,26 +15,29 @@ const WelcomePage = () => {
           backgroundRepeat: "no-repeat",
         }}
       >
-        <div className="flex flex-col space-y-10 pt-12 pb-44 max-w-2xl mx-auto">
+        <div className="flex flex-col space-y-4 md:space-y-10 px-6 pt-12 pb-44 max-w-2xl mx-auto">
           <div className="mx-auto flex flex-row justify-center w-full">
             <Image src="/images/bottle-black-narrow.png" width={"80px"} height={"160px"} />
             <Image src="/images/bottle-white-narrow.png" width={"80px"} height={"160px"} />
           </div>
           <div className="mx-auto text-center w-full">
-            <Image src="/images/logo-white.png" width={"350px"} height={"103px"} />
+            <div className="w-56 md:w-w-80 mx-auto">
+              <Image src="/images/logo-white.png" width={"350px"} height={"103px"} layout={"responsive"} />
+            </div>
           </div>
-          <div className="mx-auto space-y-4 text-4xl text-white">
-            <div className="text-center">A Tokenised Sake Bridging Tradition and</div>
-            <div className="text-center">Technology With Quality Design</div>
+          <div className="mx-auto space-y-4 text-3xl text-white">
+            <div className="text-center">A Tokenised Sake Bridging Tradition and Technology With Quality Design</div>
           </div>
-          <div className="pt-6 mx-auto space-y-2 text-lg text-white text-center">
+          <div className="pt-4 mx-auto space-y-1 md:space-y-2 text-lg text-white text-center">
             <div>Curated by Sake Samurai Elliot Faber</div>
             <div>Produced by Kitanishi Shuzo</div>
             <div>Bottle designed by BIG Architects</div>
             <div>Featuring the art of Jonathan Jay Lee</div>
           </div>
-          <div className="pt-4 mx-auto space-y-2 text-lg text-white text-center">
-            <div>Only Available For Purchase on MISO</div>
+          <div className="pt-2 md:pt-4 mx-auto space-y-2 text-lg text-white text-center">
+            <div>
+              Only Available For <a className="underline text-pinkish cursor-pointer">Purchase on MISO</a>
+            </div>
           </div>
         </div>
       </div>

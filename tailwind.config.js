@@ -8,6 +8,18 @@ module.exports = {
         cyan: colors.cyan,
         secondary: "#525252",
         golden: "#6f613d",
+        pinkish: "#de5770",
+      },
+      lineHeight: {
+        12: "3rem",
+      },
+      height: {
+        100: "28rem",
+        120: "48rem",
+      },
+      width: {
+        100: "28rem",
+        120: "48rem",
       },
     },
   },

@@ -6,7 +6,7 @@ const Layout = ({ children, currentPage }) => {
 
   return (
     <div className="h-screen flex overflow-hidden bg-gray-100">
-      <MobileSidebar sidebarOpen={sidebarOpen} setSidebarOpen={setSidebarOpen} />
+      <MobileSidebar current={currentPage} sidebarOpen={sidebarOpen} setSidebarOpen={setSidebarOpen} />
       <DesktopSidebar current={currentPage} />
       <div className="flex-1 overflow-auto focus:outline-none">
         <MobileMenu setSidebarOpen={setSidebarOpen} />
