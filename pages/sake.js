@@ -1,7 +1,7 @@
 import Image from "next/image";
 import { Layout } from "../components";
 
-const TokenPage = () => {
+const SakePage = () => {
   return (
     <Layout currentPage="sake">
       {/* Overflow for absolute circular graphics */}
@@ -105,4 +105,4 @@ const TokenPage = () => {
   );
 };
 
-export default TokenPage;
+export default SakePage;

@@ -10,7 +10,7 @@ const Layout = ({ children, currentPage }) => {
       <DesktopSidebar current={currentPage} />
       <div className="flex-1 overflow-auto focus:outline-none">
         <MobileMenu setSidebarOpen={setSidebarOpen} />
-        <main className="flex-1 relative pb-8 z-0 overflow-y-auto bg-black">{children}</main>
+        <main className="flex-1 relative z-0 overflow-y-auto bg-black">{children}</main>
       </div>
     </div>
   );
