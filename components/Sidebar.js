@@ -107,7 +107,7 @@ export const Navigation = ({ current }) => {
             <div className="text-white">SAKE 2021,</div>
             <div className="text-white">
               Powered by{" "}
-              <a className="underline" href="https://app.sushi.com" target="_blank" rel="noopener noreferrer">
+              <a className="underline" href="https://sushi.com" target="_blank" rel="noopener noreferrer">
                 SUSHI
               </a>
             </div>
