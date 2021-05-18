@@ -38,7 +38,7 @@ const ArchitectPage = () => {
           </div>
         </div>
         <div className="z-10 relative max-w-4xl mx-auto">
-          <Image src="/images/sake-architect.jpg" width={"937px"} height={"525px"} />
+          <Image src="/images/sake-architect-2.jpg" width={"937px"} height={"525px"} />
         </div>
 
         <div className="max-w-4xl mx-auto">
