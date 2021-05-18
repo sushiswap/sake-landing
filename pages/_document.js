@@ -52,11 +52,14 @@ class MyDocument extends Document {
 
           {/* TWITTER */}
           <meta name="twitter:card" content="summary" />
-          <meta name="twitter:url" content={process.env.APP_URL} />
-          <meta name="twitter:title" content={process.env.APP_NAME} />
-          <meta name="twitter:description" content={process.env.APP_DESCRIPTION} />
+          <meta name="twitter:url" content="https://sake.sushi.com" />
+          <meta name="twitter:title" content="SAKΞ" />
+          <meta
+            name="twitter:description"
+            content="SAKΞ is the first of its kind: a tokenized sake bridging tradition and technology with quality design."
+          />
           <meta name="twitter:image" content="/android-chrome-192x192.png" />
-          <meta name="twitter:creator" content="@SAK3" />
+          <meta name="twitter:creator" content="@0xSAKE" />
 
           {/* FACEBOOK */}
           <meta property="og:type" content="website" />
