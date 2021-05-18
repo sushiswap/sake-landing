@@ -7,6 +7,7 @@ module.exports = {
       colors: {
         cyan: colors.cyan,
         secondary: "#525252",
+        darker: "#414141",
         disabled: "#2d2d2d",
         golden: "#6f613d",
         pinkish: "#de5770",
