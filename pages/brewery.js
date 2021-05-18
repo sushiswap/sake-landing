@@ -17,12 +17,12 @@ const BreweryPage = () => {
         ></div>
         <div className="max-w-4xl mx-auto py-10">
           <div className="w-full mx-auto text-center">
-            <div className="brand-font inline-block text-white text-2xl px-20 py-4 bg-black">1894</div>
+            <div className="brand-font inline-block text-white text-2xl px-6 md:px-8 py-4 bg-black">1894</div>
           </div>
           <div className="px-10 lg:px-0 grid grid-cols-1 gap-16 md:grid-cols-2 md:gap-28 py-10">
             <div className="brand-font text-black text-lg flex flex-col space-y-4 ">
               <p>
-                Kitanishi Shuzo, the makers of Bunraku, uses time-honored tradition to make SAKΞ an exceedingly rare and
+                Kitanishi Shuzo, the makers of Bunraku, use time-honored tradition to make SAKΞ an exceedingly rare and
                 high-quality sake.
               </p>
               <p>
@@ -31,10 +31,11 @@ const BreweryPage = () => {
               </p>
             </div>
             <div className="text-black text-lg flex flex-col space-y-4">
-              <p>文楽はSAKΞを使って、昔ながらの伝統を活か して、非常に希少で高品質な日本酒を作り上げ ています。</p>
               <p>
-                1894年に北西亀吉によって設立された文楽の 厳重なレシピと日本酒の製造方法は、米、水、
-                麹などの日本酒の神聖な三位一体に焦点を当 てています。
+                文楽の酒蔵として知られる北西酒造は、昔ながらの伝統製法を用いることで、SAKΞをとても珍しく高品質な日本酒として製造します。
+              </p>
+              <p>
+                1894年に北西亀吉氏により創業され、米・水・こうじ・慎重にセレクトされた酵母のみという文楽の製造材料と方法は、今でも受け継がれています。
               </p>
             </div>
           </div>
@@ -59,8 +60,7 @@ const BreweryPage = () => {
             </div>
             <div className="text-black text-lg flex flex-col space-y-4">
               <p>
-                兄妹の直雪と真由子が現世代の文楽を経営し ている。 1世紀以上の卓越性と、他の人にはない
-                実験への意欲を備えた文楽ブランドは、その一 貫した品質と卓越した味で世界中で高く評価さ れています。
+                兄妹である直之さんと真由子さんにより、現在の文楽の舵が取られています。100年以上の優れた技術と他社にはない冒険心により、文楽ブランドはその一貫した品質と素晴らしい味わいで全世界から愛されています。
               </p>
             </div>
           </div>

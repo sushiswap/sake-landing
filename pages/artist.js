@@ -18,7 +18,7 @@ const ArtistPage = () => {
         ></div>
         <div className="max-w-4xl mx-auto py-10">
           <div className="w-full mx-auto text-center pb-10">
-            <div className="brand-font inline-block text-white text-2xl px-10 md:px-20 py-4 bg-black">
+            <div className="brand-font inline-block text-white text-2xl px-6 md:px-8 py-4  bg-black">
               Jonathan Jay Lee
             </div>
           </div>
@@ -31,12 +31,10 @@ const ArtistPage = () => {
               </p>
             </div>
             <div className="text-black text-lg flex flex-col space-y-4">
+              <p>SAKΞは数々の賞を受賞しているアーティスト、ジョナサン・ジェイ・リー氏とコラボレーションしています。</p>
               <p>
-                SAKΞは、受賞歴のあるアーティスト、ジョナサン・ ジェイ・リーのユニークなアートをフィーチャーして います。
-              </p>
-              <p>
-                Leeの過去のクライアントには、Marvel、Disney Plus、Appleなどがあります。 彼の称賛は数が多す
-                ぎて含めることができません。
+                リー氏のこれまで手掛けたプロジェクトは、マーベル、ディズニープラス、メルセデスベンツ、ミニ、HSBC
+                銀行、アップル、日本観光局など数多くに渡ります。
               </p>
             </div>
           </div>
@@ -56,9 +54,7 @@ const ArtistPage = () => {
             </div>
             <div className="text-black text-lg flex flex-col space-y-4">
               <p>
-                ネオ東京を舞台にしたリーの作品は、若々しいヒッ プスターと伝統的なサラリーマンの両方がSAKΞを
-                楽しんでいることを特徴としており、SAKΞが伝統と 明日のギャップを埋めることで、日本酒はすべての
-                人のためのものであることを示しています。
+                数世紀に渡って受け継がれてきた、この日本酒という文化を今日の現代日本に残していく革命的な役割を担う文楽、リー氏の作品は、日本酒はどんな人にも楽しめるものであり、SAKΞは伝統とこれからやってくるものの架け橋を担うものとして、今日の東京をバックにモダンな居酒屋を反映したものとなっています。
               </p>
             </div>
           </div>

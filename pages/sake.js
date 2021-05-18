@@ -15,12 +15,12 @@ const SakePage = () => {
             backgroundRepeat: "no-repeat",
           }}
         ></div>
-        <div className="max-w-xl lg:max-w-2xl mx-auto pb-10 md:pb-16">
+        {/* <div className="max-w-xl lg:max-w-2xl mx-auto pb-10 md:pb-16">
           <div className="relative flex w-full mx-auto justify-center -mt-96 md:-mt-100">
             <div className="bg-golden rounded-full w-100 h-100 md:w-110 md:h-110"></div>
           </div>
-        </div>
-        <div className="max-w-4xl mx-auto">
+        </div> */}
+        <div className="max-w-4xl mx-auto  pt-10 md:pt-16">
           <div className="px-10 lg:px-0 grid grid-cols-1 gap-16 md:grid-cols-2 md:gap-18 pb-20">
             <div className="brand-font text-white text-lg flex flex-col space-y-4 pr-0">
               <p>
@@ -33,23 +33,15 @@ const SakePage = () => {
                 level of quality, every grain of rice used in SAKΞ is polished to at least half of its original size.
                 This extremely labor-intensive process requires stringent quality controls and a costly production
                 process to produce very limited quantities. The result is concentrated yet nuanced, with a complex and
-                highly fragrant style.
+                highly fragrant style. SAKΞ's unique aroma and taste are not easily achieved
               </p>
             </div>
             <div className="text-white text-lg flex flex-col space-y-4">
-              <p>SAKΞは非常に珍しい日本酒です。純米大 吟醸無濾過生原酒生酛。</p>
               <p>
-                「純米大吟醸」は最高級の日本酒で、醸造 所の最高峰と言われています。このレベル
-                の品質を達成するために、SAKΞで使用さ れるすべての米粒は、発酵前に元のサイズ
-                の半分に研磨されます。この非常に労働集 約的なプロセスでは、非常に限られた量を
-                生産するために、厳格な品質管理とコスト のかかる生産プロセスが必要です。複雑で
-                香り高いスタイルで、SAKΞの香りと味わ いに白い花と梨梨の特徴が凝縮されてい ます。
+                SAKΞは大変珍しい種類の日本酒で、純米大吟醸無濾過生原酒生酛雫（じゅんまいだいぎんじょうむろかなまげんしゅきもとしずく）と種別されます。
               </p>
               <p>
-                「むろか生原酒」酒は、ろ過も低温殺菌も希 釈もされていません。 SAKΞは、醸造プロ
-                セス全体を通して自然の風味と香りを維持 することにより、自然な色と高いアルコール
-                度数を維持します。結果として得られる味 は妥協のないものです：生のクルミ、マジ
-                パンのノートと口蓋の後端のさわやかな 苦いノート。
+                純米大吟醸は他の日本酒に比べ、徹底した温度管理、発酵・酵素作用の工程など、はるかに多くの工程を要します。SAKΞに使われる酒米は、基準を満たす品質を守るため、最低でも通常の米粒の半分のサイズまで精米されます。この過酷な製造過程、厳しい徹底された品質管理、決して安くはない製造工程のため、限定数のみの出荷となっています。仕上がりは濃厚かつ絶妙で、とても香り高く複雑な味わいです。SAKΞのユニークな香りと味わいは、この厳選された製造過程だからこそ生み出されるものです。
               </p>
             </div>
           </div>
@@ -70,9 +62,9 @@ const SakePage = () => {
             <div className="brand-font text-white text-lg flex flex-col space-y-4 ">
               <p>
                 "Muroka Nama Genshu" (無濾過生原酒) sake is unfiltered, unpasteurized, and undiluted. By preserving the
-                natural flavors and aromas throughout the brewing process, SAKΞ maintains its natural coloring and
-                original alcohol percentage. The resulting taste is one without compromise: notes of raw walnut,
-                marzipan and a refreshing bitter note on the back end of the palate.
+                natural flavors and aromas throughout the brewing process, SAKΞ maintains its natural coloring and high
+                alcohol count. The resulting taste is one without compromise: notes of raw walnut, marzipan and a
+                refreshing bitter note on the back end of the palate.
               </p>
               <p>
                 The traditional "Kimoto" (生酛) brewing method adds multiple weeks to the brewing process to give SAKΞ a
@@ -91,19 +83,16 @@ const SakePage = () => {
             </div>
             <div className="text-white text-lg flex flex-col space-y-4">
               <p>
-                「むろか生原酒」酒は、ろ過も低温殺菌も希 釈もされていません。 SAKΞは、醸造プロ
-                セス全体を通して自然の風味と香りを維持 することにより、自然な色と高いアルコール
-                度数を維持します。結果として得られる味 は妥協のないものです：生のクルミ、マジ
-                パンのノートと口蓋の後端のさわやかな 苦いノート。
+                無濾過生原酒とは無濾過、無低温殺菌、無希釈で仕上げられた日本酒です。醸造過程を通して自然な風味と香りをキープすることで、ナチュラルな色合いと高いアルコール度数を実現しています。生のくるみ、マルチパンやなどの爽やかなほろ苦い風味が広がり、仕上がりは作り手の妥協を許さないものとなっています。
               </p>
               <p>
-                伝統的な「キモト」（生酛）醸造法は、醸造プ ロセスに数週間を追加して、SAKΞにクリ
-                ーミーなテクスチャーと穏やかで塩辛い仕 上がりの石灰岩のアンダートーンを与えま す。
+                生酛（きもと）という週数間を要する製造方法を加えることで、微かな、クリアでクリーミーな舌触りと優しく爽やかな少し塩気のあるフィニッシュです。
               </p>
               <p>
-                「雫」として瓶詰めされたこの骨の折れる方 法は、重力によってフリーランの酒だけが
-                タンクに滴り落ちることを可能にします。圧 力がかからないため、SAKΞの最も繊細で
-                エレガントな特徴がボトルに保存されてい ます。
+                “雫”（しずく）という瓶詰め作業、この骨の折れる作業は、宙力によってのみ日本酒を瓶詰めするということを可能にしています。外部からの圧力がかからないため、繊細でエレガントな品質がそのまま瓶の中に保存されています。
+              </p>
+              <p>
+                全ての工程を経て完成すると、品質劣化を防ぐため、SAKΞは–5℃に徹底管理された特別なタンクに保管されます。このような通常とは異なる製造環境が、SAKΞの新鮮さ・自然な高品質を可能にしています。
               </p>
             </div>
           </div>

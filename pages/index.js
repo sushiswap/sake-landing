@@ -1,7 +1,6 @@
-import { useState } from "react";
 import Image from "next/image";
 
-import { Layout, MobileMenu, MobileSidebar, Sidebar as DesktopSidebar, YoutubeEmbed } from "../components";
+import { Layout } from "../components";
 
 const WelcomePage = () => {
   return (
@@ -35,7 +34,7 @@ const WelcomePage = () => {
                 SAKΞ is the first of its kind: a tokenized sake bridging tradition and technology with quality design.
               </p>
               <p>
-                OThe pinnacle of the brewers' craft and technological innovation, every bottle of SAKΞ is a work of art.
+                The pinnacle of the brewers' craft and technological innovation, every bottle of SAKΞ is a work of art.
                 With the highest attention to the details of production, from planting rice seeds to hand-bottling to
                 order, SAKΞ is curated by Sake Samurai Elliot Faber and produced by Kitanishi Shuzo, makers of Bunraku,
                 with a bottle designed by BIG Architects and featuring the art of Jonathan Jay Lee.
@@ -44,12 +43,13 @@ const WelcomePage = () => {
               <p>Bidding opens on May 20th, 2021. The rice seeds for SAKΞ will be planted one week later.</p>
             </div>
             <div className="text-white text-base md:text-lg flex flex-col space-y-4">
-              <p>SAKΞはその種の最初のものです：高品質のデザイン で伝統と技術を橋渡しするトークン化された日本酒。</p>
               <p>
-                醸造所の工芸品と技術革新の頂点、SAKΞの芸術作品 のすべてのボトル。 最高級の日本酒が特徴のSAKΞは 、Sake
-                Samurai Elliot Faberがキュレーションし、北西 修造がプロデュースし、BIG Architectsがデザインし、 Jonathan
-                JayLeeのアートをフィーチャーしたボトルを 使用しています。
+                今までに類を見ない全く新しいもの、SAKΞ：トークン化された日本酒の掛橋となる伝統、高度なデザインと技術
               </p>
+              <p>
+                酒蔵の技能と科学技術の革新の頂点、SAKΞの一本一本は芸術作品です。可能な限りグレードの高い日本酒をフィーチャーし、SAKΞはジョナサン・ジェイ・リー氏の作品とフィーチャリングしてBIGグループがボトルのデザインを手がけ、文楽の製造元である北西酒蔵のプロデュースのもと、酒サムライのエリオット・フェイバーによって精選されます。
+              </p>
+              <p>888本のみの限定製造です。</p>
             </div>
           </div>
         </div>

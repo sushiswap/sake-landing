@@ -18,7 +18,7 @@ const ArchitectPage = () => {
         ></div>
         <div className="max-w-4xl mx-auto py-10">
           <div className="w-full mx-auto text-center pb-10">
-            <div className="brand-font inline-block text-white text-2xl px-20 py-4 bg-black">BIG DK</div>
+            <div className="brand-font inline-block text-white text-2xl px-6 md:px-8 py-4  bg-black">BIG DK</div>
           </div>
           <div className="px-10 lg:px-0 grid grid-cols-1 gap-16 md:grid-cols-2 md:gap-28 py-10">
             <div className="brand-font text-black text-lg flex flex-col space-y-4">
@@ -29,10 +29,10 @@ const ArchitectPage = () => {
               </p>
             </div>
             <div className="text-black text-lg flex flex-col space-y-4">
-              <p>SAKΞのために、ビャルケインゲルスグ ループ（BIG）はボトルと芸術作品の両方 をデザインしました。</p>
+              <p>ボトルのパッケージのデザインは、ビャーケ・インゲルスグループ（B I G）が手がけています。</p>
               <p>
-                世界的に有名なデザイナー、発明家、建 築家のグループであるBIGの受賞作品は
-                、ヨーロッパ、アメリカ、アジア、中東で見 ることができます。
+                世界的に有名なデザイナー・発明家・建築家グループであるB I
+                Gグループの手がける作品は、ヨーロッパ、アメリカ、アジア、中東のあらゆる地域に渡り、高い評価を受けています。
               </p>
             </div>
           </div>
@@ -52,9 +52,7 @@ const ArchitectPage = () => {
             </div>
             <div className="text-black text-lg flex flex-col space-y-4">
               <p>
-                BIGのSAKΞボトルは、歴史的な酒造りの 芸術と力強い現代的なデザインを融合 させています。
-                触覚的な水平パターンは 、日本の伝統的な波と田んぼのテラスに 敬意を表しています。 コルクには、日本
-                のヘッドスカーフとドレスの伝統に触発 された生地のラベルが付いています。
+                BIGグループの手がけるSAKΞのパッケージデザインは、現代アートの大きな要素と同時に、伝統的な酒の醸造方法にヒントを得ています。触知できる水平の模様は、伝統的な日本の水田と波を現し、敬意を込めたものになっています。コルクのデザインには、日本の手ぬぐいや昔ながらの着物などの日本ならではの衣服のデザインにヒントを得た模様を配しています。
               </p>
             </div>
           </div>
