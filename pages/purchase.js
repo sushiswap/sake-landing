@@ -24,7 +24,7 @@ const ArtistPage = () => {
             <div className="brand-font text-black text-lg flex flex-col space-y-4">
               <p>On May 20th, the Dutch auction to own 1 of 888 bottles of SAKΞ begins on MISO launchpad.</p>
               <p>
-                To receive a bottle of SAKΞ, you must own and redeem at least 1 of 888 SKE (SAK3) tokens. Each token
+                To receive a bottle of SAKΞ, you must own and redeem at least 1 of 888 SAK3 (SAK3) tokens. Each token
                 represents ownership of a bottle, with SAK3 tokens starting at 88,000 $SUSHI and declining in price
                 until a bidder accepts the going price, or 7 days pass. You need a whole SAK3 token to order a bottle of
                 SAKΞ (e.g. 1.0 SAK3 can be redeemed for a bottle; 0.77 SAK3 cannot).
@@ -35,7 +35,7 @@ const ArtistPage = () => {
                 5月20日、MISO媒体上にて、888本のSAKΞのうちの一本を獲得するためのオランダのオークションが始まります。
               </p>
               <p>
-                SAKΞのボトルを手に入れるためには、少なくとも888個のSKE
+                SAKΞのボトルを手に入れるためには、少なくとも888個のSAK3
                 (SAK3)トークンのうち1つを購入する必要があります。各トークンはSAKΞの所有権を意味し、トークンは88,000
                 $SUSHIから始まり、入札者が価格を受け入れるか7日間経過するまで価格は下がり続けます。SAKΞをオーダーするためには、完全なSAK3トークンが必要です。（例：1.0トークンは一本注文できますが、0.77トークンではできません）
               </p>
