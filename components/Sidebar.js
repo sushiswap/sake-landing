@@ -11,6 +11,7 @@ const navigation = [
   { name: "BREWERY", href: "/brewery", id: "brewery" },
   { name: "ARCHITECT", href: "/architect", id: "architect" },
   { name: "ARTIST", href: "/artist", id: "artist" },
+  { name: "PURCHASE", href: "/purchase", id: "purchase" },
 ];
 
 function classNames(...classes) {
@@ -70,7 +71,7 @@ export const Navigation = ({ current }) => {
                 }
               > */}
               <div className={"flex flex-row text-disabled text-xl group items-center py-2 leading-6"}>
-                <div className="pr-4 brand-font">PURCHASE</div>
+                <div className="pr-4 brand-font">AUCTION</div>
                 <span className="inline-flex items-center px-3 py-1 text-sm font-medium bg-darker text-white">
                   <Countdown date={new Date("2021-05-20T00:00:00Z")}>
                     <>
