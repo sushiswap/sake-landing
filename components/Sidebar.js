@@ -106,6 +106,13 @@ export const Navigation = ({ current }) => {
             <a href="https://www.instagram.com/0xsake/" target="_blank" rel="noopener noreferrer">
               <Image src="/images/instagram-icon.jpg" width={"30px"} height={"30px"} />
             </a>
+            <a
+              href="https://www.youtube.com/channel/UC3OihGA5TFYv-lD_2d7Gd9Q"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Image src="/images/youtube-icon.jpg" width={"30px"} height={"30px"} />
+            </a>
           </div>
           <div className="px-11">
             <div className="text-white">SAKE 2021,</div>

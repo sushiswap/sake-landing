@@ -15,7 +15,12 @@ const WelcomePage = () => {
           backgroundRepeat: "no-repeat",
         }}
       >
-        <div className="brand-font flex flex-col space-y-4 md:space-y-10 px-6 pt-12 pb-44 max-w-3xl mx-auto">
+        <div className="max-w-4xl mx-auto pt-0 lg:pt-52 pb-10">
+          <div className="w-full -mt-20">
+            <YoutubeEmbed embedId="Q3FZkPLxN74" />
+          </div>
+        </div>
+        <div className="brand-font flex flex-col space-y-4 md:space-y-10 px-6 pt-4 pb-44 max-w-3xl mx-auto">
           <div className="mx-auto flex flex-row justify-center w-full">
             <Image src="/images/bottle-black-narrow.png" width={"80px"} height={"160px"} />
             <Image src="/images/bottle-white-narrow.png" width={"80px"} height={"160px"} />
@@ -47,11 +52,6 @@ const WelcomePage = () => {
               </a>
             </div>
           </div>
-        </div>
-      </div>
-      <div className="max-w-4xl mx-auto pb-24">
-        <div className="w-full -mt-20">
-          <YoutubeEmbed embedId="Q3FZkPLxN74" />
         </div>
       </div>
     </Layout>
