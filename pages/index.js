@@ -6,50 +6,50 @@ import { Layout, MobileMenu, MobileSidebar, Sidebar as DesktopSidebar, YoutubeEm
 const WelcomePage = () => {
   return (
     <Layout currentPage="welcome">
-      <div
-        className="relative h-full"
-        style={{
-          backgroundImage: `radial-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.6)), url('/images/topograph.jpg')`,
-          backgroundPosition: "center",
-          backgroundSize: "cover",
-          backgroundRepeat: "no-repeat",
-        }}
-      >
-        <div className="max-w-4xl mx-auto pt-0 lg:pt-52 pb-10">
-          <div className="w-full -mt-20">
-            <YoutubeEmbed embedId="Q3FZkPLxN74" />
+      <div className="pb-20">
+        <div className="p-0 lg:p-20">
+          <div
+            className="relative w-full aspect-w-2 aspect-h-1"
+            style={{
+              backgroundImage: `url('/images/sake-box.jpg')`,
+              backgroundPosition: "center",
+              backgroundSize: "cover",
+              backgroundRepeat: "no-repeat",
+            }}
+          ></div>
+        </div>
+        <div className="hidden md:block">
+          <div className="flex justify-center py-10 lg:pt-4 lg:pb-20">
+            <Image src="/images/three-stripes.png" width={"156px"} height={"156px"} />
           </div>
         </div>
-        <div className="brand-font flex flex-col space-y-4 md:space-y-10 px-6 pt-4 pb-44 max-w-3xl mx-auto">
-          <div className="mx-auto flex flex-row justify-center w-full">
-            <Image src="/images/bottle-black-narrow.png" width={"80px"} height={"160px"} />
-            <Image src="/images/bottle-white-narrow.png" width={"80px"} height={"160px"} />
+        <div className="block md:hidden">
+          <div className="flex justify-center py-10 lg:pt-4 lg:pb-20">
+            <Image src="/images/three-stripes.png" width={"80px"} height={"80px"} />
           </div>
-          <div className="mx-auto text-center w-full">
-            <div className="w-56 md:w-w-80 mx-auto">
-              <Image src="/images/sake-logo.png" width={"350px"} height={"103px"} layout={"responsive"} />
+        </div>
+        <div className="max-w-4xl mx-auto">
+          <div className="px-10 lg:px-0 grid grid-cols-1 gap-16 md:grid-cols-2 md:gap-28">
+            <div className="brand-font text-white text-base md:text-lg text-justify flex flex-col space-y-4">
+              <p>
+                SAKΞ is the first of its kind: a tokenized sake bridging tradition and technology with quality design.
+              </p>
+              <p>
+                OThe pinnacle of the brewers' craft and technological innovation, every bottle of SAKΞ is a work of art.
+                With the highest attention to the details of production, from planting rice seeds to hand-bottling to
+                order, SAKΞ is curated by Sake Samurai Elliot Faber and produced by Kitanishi Shuzo, makers of Bunraku,
+                with a bottle designed by BIG Architects and featuring the art of Jonathan Jay Lee.
+              </p>
+              <p>Only 888 bottles of SAKΞ will ever be made.</p>
+              <p>Bidding opens on May 20th, 2021. The rice seeds for SAKΞ will be planted one week later.</p>
             </div>
-          </div>
-          <div className="mx-auto space-y-4 text-3xl text-white">
-            <div className="text-center">A Tokenised Sake Bridging Tradition and Technology With Quality Design</div>
-          </div>
-          <div className="pt-4 mx-auto space-y-1 md:space-y-2 text-lg text-white text-center">
-            <div>Curated by Sake Samurai Elliot Faber</div>
-            <div>Produced by Kitanishi Shuzo</div>
-            <div>Bottle designed by BIG Architects</div>
-            <div>Featuring the art of Jonathan Jay Lee</div>
-          </div>
-          <div className="pt-2 md:pt-4 mx-auto space-y-2 text-lg text-white text-center">
-            <div>
-              Only Available For{" "}
-              <a
-                className="underline text-pinkish cursor-pointer"
-                href="https://miso.sushi.com/auctions/0x5cFEb913fe8aE7e5E63E5930F044f36Ba4B882aB"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                Purchase on MISO
-              </a>
+            <div className="text-white text-base md:text-lg flex flex-col space-y-4">
+              <p>SAKΞはその種の最初のものです：高品質のデザイン で伝統と技術を橋渡しするトークン化された日本酒。</p>
+              <p>
+                醸造所の工芸品と技術革新の頂点、SAKΞの芸術作品 のすべてのボトル。 最高級の日本酒が特徴のSAKΞは 、Sake
+                Samurai Elliot Faberがキュレーションし、北西 修造がプロデュースし、BIG Architectsがデザインし、 Jonathan
+                JayLeeのアートをフィーチャーしたボトルを 使用しています。
+              </p>
             </div>
           </div>
         </div>

@@ -56,14 +56,17 @@ const TokenPage = () => {
         <div className="max-w-4xl mx-auto">
           <div className="px-10 lg:px-0 grid grid-cols-1 gap-16 md:grid-cols-2 md:gap-28">
             <div className="brand-font text-white text-base md:text-lg text-justify flex flex-col space-y-4">
-              <p>SAKE is only available for purchase on MISO.</p>
-              <p>On May 20th, the Dutch auction to own 1 of 888 bottles of SAKE begins.</p>
+              <p>SAKΞ is available for purchase on MISO launchpad on May 20th, 2021 via a 7-day auction.</p>
+              <p>Ownership of SAKΞ is dictated by the SAK3 token.</p>
               <p>
-                Only 888 bottles of SAKE will ever be made. To own a bottle of SAKE, you must purchase at least 1 of 888
-                SAKE tokens. You can gift, sell, or redeem a SAKE token to receive your bottle of SAK (almost) anywhere
-                in the world.
+                To receive a bottle of SAKΞ, you must own at least 1 of 888 SAK3 tokens. You can purchase SAK3 tokens on
+                MISO using $SUSHI. You can hold a fraction of a token, give it as a gift, or redeem a complete token to
+                have a fresh bottle of SAKΞ shipped directly to you.
               </p>
-              <p> Brewing begins on May 21, 2021.</p>
+              <p>
+                Only 200 SAK3 tokens will initially be made available on Ethereum, with additional blockchains to
+                follow. $SUSHI and SAK3 tokens can be traded on Sushi.com Exchange once the auction is completed.
+              </p>
             </div>
             <div className="text-white text-base md:text-lg flex flex-col space-y-4">
               <p>SAKΞはMISOでのみ購入できます。</p>

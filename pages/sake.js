@@ -24,20 +24,20 @@ const SakePage = () => {
           <div className="px-10 lg:px-0 grid grid-cols-1 gap-16 md:grid-cols-2 md:gap-18 pb-20">
             <div className="brand-font text-white text-lg flex flex-col space-y-4 pr-0">
               <p>
-                SAKE is an extremely rare style of sake: Junmai Daiginjo Muroka Nama Genshu Kimoto (純米大吟醸無濾過
-                生原酒生酛).
+                SAKΞ is an extremely rare style of sake: Junmai Daiginjo Muroka Nama Genshu Kimoto Shizuku
+                (純米大吟醸無濾過生原酒生酛雫).
               </p>
               <p>
-                "Junmai Daiginjo" (純米大吟醸) is the highest grade of sake and is considered the pinnacle of the
-                brewer's craft. To achieve this level of quality, every grain of rice used in SAKE is polished to half
-                of its original size prior to fermentation. This extremely labor-intensive process requires stringent
-                quality controls and a costly production process to produce very limited quantities. The resulting style
-                is complex and highly-fragrant, with characteristics of white flowers and nashi pear concentrated in
-                SAKE's aroma and taste.
+                "Junmai Daiginjo" (純米大吟醸) sake requires extraordinary attention to detail, with constant monitoring
+                of temperature, fermentation and enzymatic activity for far longer than a typical sake. To achieve this
+                level of quality, every grain of rice used in SAKΞ is polished to at least half of its original size.
+                This extremely labor-intensive process requires stringent quality controls and a costly production
+                process to produce very limited quantities. The result is concentrated yet nuanced, with a complex and
+                highly fragrant style.
               </p>
             </div>
             <div className="text-white text-lg flex flex-col space-y-4">
-              <p>SAKΞは非常に珍しい日本酒です。純米大 吟醸無濾過生原酒生酛</p>
+              <p>SAKΞは非常に珍しい日本酒です。純米大 吟醸無濾過生原酒生酛。</p>
               <p>
                 「純米大吟醸」は最高級の日本酒で、醸造 所の最高峰と言われています。このレベル
                 の品質を達成するために、SAKΞで使用さ れるすべての米粒は、発酵前に元のサイズ
@@ -69,19 +69,24 @@ const SakePage = () => {
           <div className="z-10 relative px-10 lg:px-0 grid grid-cols-1 gap-16 md:grid-cols-2 md:gap-18 py-20">
             <div className="brand-font text-white text-lg flex flex-col space-y-4 ">
               <p>
-                "Muroka Nama Genshu" (無濾過生原酒) sake is unfiltered unpasteurized, and undiluted. By preserving the
-                natural flavors and aromas throughout the brewing process, SAKE preserves its natural coloring and high
-                alcohol count. The resulting taste is one without compromise: notes of raw walnut, marzipan and a
-                refreshing bitter note on the back end of the palate.
+                "Muroka Nama Genshu" (無濾過生原酒) sake is unfiltered, unpasteurized, and undiluted. By preserving the
+                natural flavors and aromas throughout the brewing process, SAKΞ maintains its natural coloring and
+                original alcohol percentage. The resulting taste is one without compromise: notes of raw walnut,
+                marzipan and a refreshing bitter note on the back end of the palate.
               </p>
               <p>
-                The traditional "Kimoto" (生酛) brewing method adds multiple weeks to the brewing process to give SAKE a
-                creamy texture and limestone undertones with a gentle, salty finish.
+                The traditional "Kimoto" (生酛) brewing method adds multiple weeks to the brewing process to give SAKΞ a
+                bright, creamy texture with limestone undertones and a gentle-yet-refreshing, slightly salty finish.
               </p>
               <p>
-                Bottled as "Shizuku "(雫), this painstaking method allows only free-run sake to drip into into the tank
-                via gravity. Because no pressure is applied, SAKE's most delicate and elegant characteristics are
-                preserved in the bottle.
+                Bottled as "Shizuku" (雫), this painstaking method allows only free-run sake to drip into the tank via
+                gravity. Because no pressure is applied, SAKΞ's most delicate and elegant characteristics are preserved
+                in the bottle.
+              </p>
+              <p>
+                Once complete, SAKΞ is stored in a specialized tank that maintains a perfect -5ºc to prevent spoilage.
+                These exceptional conditions ensure that every time SAKΞ is bottled, the prized liquid maximizes its
+                freshness and natural qualities.
               </p>
             </div>
             <div className="text-white text-lg flex flex-col space-y-4">

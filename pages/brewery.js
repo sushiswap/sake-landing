@@ -21,10 +21,13 @@ const BreweryPage = () => {
           </div>
           <div className="px-10 lg:px-0 grid grid-cols-1 gap-16 md:grid-cols-2 md:gap-28 py-10">
             <div className="brand-font text-black text-lg flex flex-col space-y-4 ">
-              <p>With SAKE, Bunraku uses time-honored tradition to create an exceedingly rare and high-quality sake.</p>
+              <p>
+                Kitanishi Shuzo, the makers of Bunraku, uses time-honored tradition to make SAKΞ an exceedingly rare and
+                high-quality sake.
+              </p>
               <p>
                 Founded in 1894 by Kamekichi Kitanishi, Bunraku's closely guarded recipes and methods of sake production
-                focus on sake's sacred trinity of ingredients: rice, water and koji.
+                focus on sake’s sacred ingredients: rice, water, koji and carefully selected yeast.
               </p>
             </div>
             <div className="text-black text-lg flex flex-col space-y-4">

@@ -10,7 +10,7 @@ const ArtistPage = () => {
         <div
           className="relative w-full z-10 min-h-screen"
           style={{
-            backgroundImage: `url('/images/marketplace.jpg')`,
+            backgroundImage: `url('/images/neo-tokyo.jpg')`,
             backgroundPosition: "center",
             backgroundSize: "cover",
             backgroundRepeat: "no-repeat",
@@ -24,10 +24,10 @@ const ArtistPage = () => {
           </div>
           <div className="px-10 lg:px-0 grid grid-cols-1 gap-16 md:grid-cols-2 md:gap-28 py-10">
             <div className="brand-font text-black text-lg flex flex-col space-y-4">
-              <p>SAKE features unique art from award-winning artist Jonathan Jay Lee.</p>
+              <p>SAKΞ features unique art from award-winning artist Jonathan Jay Lee.</p>
               <p>
-                Lee's past clients include Marvel, Disney Plus, Apple, and many more. His accolades are too numerous to
-                include.
+                Lee's past clients include Marvel, Disney Plus, Mercedes, MINI, HSBC, Apple, and the Japan Tourism
+                Board, among numerous others.
               </p>
             </div>
             <div className="text-black text-lg flex flex-col space-y-4">
@@ -48,8 +48,10 @@ const ArtistPage = () => {
           <div className="px-10 lg:px-0 grid grid-cols-1 gap-16 md:grid-cols-2 md:gap-28 py-10">
             <div className="brand-font text-black text-lg flex flex-col space-y-4">
               <p>
-                Set against Neo Tokyo, Lee's work features both youthful hipsters and traditional salarymen enjoying
-                SAKE, showcasing that sake is for everyone—with SAKE bridging the gap between tradition and tomorrow.
+                Playing on Bunraku brewery's evolution of bringing the centuries-long tradition of enjoying sake to a
+                contemporary audience in modern Japan, his work interprets the modern izakaya set against a backdrop of
+                Neo-Tokyo, showcasing that sake is for everyone—with SAKΞ bridging the gap between traditional heritage
+                and what is yet to come.
               </p>
             </div>
             <div className="text-black text-lg flex flex-col space-y-4">
