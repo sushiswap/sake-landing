@@ -51,14 +51,17 @@ class MyDocument extends Document {
           <link rel="shortcut icon" href="/favicon.ico" />
 
           {/* TWITTER */}
-          <meta name="twitter:card" content="summary" />
+          <meta name="twitter:card" content="summary_large_image" />
           <meta name="twitter:url" content="https://sake.sushi.com" />
           <meta name="twitter:title" content="SAKΞ" />
           <meta
             name="twitter:description"
             content="SAKΞ is the first of its kind: a tokenized sake bridging tradition and technology with quality design."
           />
-          <meta name="twitter:image" content="/android-chrome-192x192.png" />
+          <meta
+            name="twitter:image"
+            content="https://raw.githubusercontent.com/sushiswap/sushi-content/master/sake/sake-box.jpg"
+          />
           <meta name="twitter:creator" content="@0xSAKE" />
 
           {/* FACEBOOK */}
