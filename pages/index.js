@@ -1,13 +1,13 @@
 import Image from "next/image";
 
-import { Layout } from "../components";
+import { Layout, YoutubeEmbed } from "../components";
 
 const WelcomePage = () => {
   return (
     <Layout currentPage="welcome">
       <div className="pb-20">
         <div className="p-0 lg:p-20">
-          <div
+          {/* <div
             className="relative w-full aspect-w-2 aspect-h-1"
             style={{
               backgroundImage: `url('/images/sake-box.jpg')`,
@@ -15,7 +15,8 @@ const WelcomePage = () => {
               backgroundSize: "cover",
               backgroundRepeat: "no-repeat",
             }}
-          ></div>
+          ></div> */}
+          <YoutubeEmbed embedId={"IUb6K1AMUvA"} />
         </div>
         <div className="hidden md:block">
           <div className="flex justify-center py-10 lg:pt-4 lg:pb-20">
