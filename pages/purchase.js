@@ -8,7 +8,7 @@ const ArtistPage = () => {
       {/* override background */}
       <div className="bg-white">
         <div
-          className="relative w-full z-10 aspect-w-4 aspect-h-3"
+          className="relative w-full z-10 aspect-w-15 aspect-h-11"
           style={{
             backgroundImage: `url('/images/sake-white-box.jpg')`,
             backgroundPosition: "center",
