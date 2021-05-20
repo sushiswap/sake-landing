@@ -65,12 +65,12 @@ export const Navigation = ({ current }) => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              {/* <div
+              <div
                 className={
                   "flex flex-row text-secondary text-xl hover:text-white group items-center py-2 leading-6 cursor-pointer"
                 }
-              > */}
-              <div className={"flex flex-row text-disabled text-xl group items-center py-2 leading-6"}>
+              >
+                {/* <div className={"flex flex-row text-xl group items-center py-2 leading-6"}> */}
                 <div className="pr-4 brand-font">AUCTION</div>
                 <span className="inline-flex items-center px-3 py-1 text-sm font-medium bg-darker text-white">
                   <Countdown date={new Date("2021-05-20T00:00:00Z")}>
