@@ -71,9 +71,9 @@ export const Navigation = ({ current }) => {
                 }
               >
                 {/* <div className={"flex flex-row text-xl group items-center py-2 leading-6"}> */}
-                <div className="pr-4 brand-font">Swap</div>
-                <span className="inline-flex items-center px-3 py-1 text-sm font-medium bg-darker text-white">
-                  {/* <Countdown date={new Date("2021-05-20T00:00:00Z")}>
+                <div className="pr-4 brand-font">SWAP NOW</div>
+                {/* <span className="inline-flex items-center px-3 py-1 text-sm font-medium bg-darker text-white">
+                  <Countdown date={new Date("2021-05-20T00:00:00Z")}>
                     <>
                       <div className="relative">
                         <svg
@@ -89,8 +89,8 @@ export const Navigation = ({ current }) => {
                       </div>
                       LIVE
                     </>
-                  </Countdown> */}
-                </span>
+                  </Countdown>
+                </span> */}
               </div>
             </a>
           </div>
