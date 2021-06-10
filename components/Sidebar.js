@@ -61,7 +61,7 @@ export const Navigation = ({ current }) => {
           <div className="flex flex-row items-center">
             <div className={"bg-black w-8 h-2 mr-4"} />
             <a
-              href="https://miso.sushi.com/auctions/0x5cFEb913fe8aE7e5E63E5930F044f36Ba4B882aB"
+              href="https://app.sushi.com/swap?outputCurrency=0xe9f84de264e91529af07fa2c746e934397810334"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -71,9 +71,9 @@ export const Navigation = ({ current }) => {
                 }
               >
                 {/* <div className={"flex flex-row text-xl group items-center py-2 leading-6"}> */}
-                <div className="pr-4 brand-font">AUCTION</div>
+                <div className="pr-4 brand-font">Swap</div>
                 <span className="inline-flex items-center px-3 py-1 text-sm font-medium bg-darker text-white">
-                  <Countdown date={new Date("2021-05-20T00:00:00Z")}>
+                  {/* <Countdown date={new Date("2021-05-20T00:00:00Z")}>
                     <>
                       <div className="relative">
                         <svg
@@ -89,7 +89,7 @@ export const Navigation = ({ current }) => {
                       </div>
                       LIVE
                     </>
-                  </Countdown>
+                  </Countdown> */}
                 </span>
               </div>
             </a>
