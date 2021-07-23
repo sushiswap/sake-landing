@@ -1,8 +1,15 @@
-import Image from "next/image";
+import dynamic from "next/dynamic";
 
 import { Layout } from "../components";
+import {useState} from "react";
+
+const NFTViewer = dynamic(
+    () => import("../components/NFTViewer"),
+    { ssr: false }
+);
 
 const ArtistPage = () => {
+  const [nftWidth, setNFTWidth] = useState();
   return (
     <Layout currentPage="artist">
       {/* override background */}
@@ -39,8 +46,12 @@ const ArtistPage = () => {
             </div>
           </div>
         </div>
-        <div className="z-10 relative max-w-4xl mx-auto">
-          <Image src="/images/sake-sketch.jpg" width={"958px"} height={"557px"} />
+        <div
+            className="z-10 relative max-w-4xl mx-auto flex justify-center items-center"
+            ref={(node) => {
+              if (node) setNFTWidth(node.offsetWidth);
+            }}>
+          <NFTViewer size={nftWidth} />
         </div>
         <div className="max-w-4xl mx-auto">
           <div className="px-10 lg:px-0 grid grid-cols-1 gap-16 md:grid-cols-2 md:gap-28 py-10">
