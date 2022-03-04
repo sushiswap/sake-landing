@@ -6,18 +6,19 @@ const Layout = ({ children, currentPage }) => {
   const [sidebarOpen, setSidebarOpen] = useState(false);
 
   return (
-    <div className="h-screen flex overflow-hidden bg-gray-100">
+    <div className="flex h-screen overflow-hidden bg-gray-100">
       <MobileSidebar current={currentPage} sidebarOpen={sidebarOpen} setSidebarOpen={setSidebarOpen} />
       <DesktopSidebar current={currentPage} />
       <div className="flex-1 overflow-auto focus:outline-none">
         <MobileMenu setSidebarOpen={setSidebarOpen} />
-        <main className="flex-1 relative z-0 overflow-y-auto bg-black pb-20 sm:pb-0">
+        <main className="relative z-0 flex-1 h-full pb-20 overflow-y-auto bg-black sm:pb-0">
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{
               delay: 0.2,
             }}
+            className="h-full"
           >
             {children}
           </motion.div>

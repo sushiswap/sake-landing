@@ -6,6 +6,7 @@ import Countdown from "react-countdown";
 
 const navigation = [
   { name: "WELCOME", href: "/", id: "welcome" },
+  { name: "NFT", href: "/burn", id: "burn" },
   { name: "TOKEN", href: "/token", id: "token" },
   { name: "SAKE", href: "/sake", id: "sake" },
   { name: "BREWERY", href: "/brewery", id: "brewery" },
@@ -24,9 +25,9 @@ const Sidebar = ({ current }) => {
       {/* Static sidebar for desktop */}
       <div className="hidden lg:flex lg:flex-shrink-0">
         <div className="flex flex-col w-72">
-          <div className="flex flex-col flex-grow bg-black pt-14 pb-4 overflow-y-auto border-r border-secondary">
+          <div className="flex flex-col flex-grow pb-4 overflow-y-auto bg-black border-r pt-14 border-secondary">
             <div className="flex items-center flex-shrink-0 px-11">
-              <div className="h-8 w-auto">
+              <div className="w-auto h-8">
                 <Image src="/images/logo-bg.png" width={"161px"} height={"58px"} />
               </div>
             </div>
@@ -41,7 +42,7 @@ const Sidebar = ({ current }) => {
 export const Navigation = ({ current }) => {
   return (
     <>
-      <nav className="pt-14 flex-1 flex flex-col justify-between overflow-y-auto " aria-label="Sidebar">
+      <nav className="flex flex-col justify-between flex-1 overflow-y-auto pt-14 " aria-label="Sidebar">
         <div className="space-y-2">
           {navigation.map((item) => (
             <div className="flex flex-row items-center">
@@ -72,7 +73,7 @@ export const Navigation = ({ current }) => {
               >
                 {/* <div className={"flex flex-row text-xl group items-center py-2 leading-6"}> */}
                 <div className="pr-4 brand-font">SWAP NOW</div>
-                {/* <span className="inline-flex items-center px-3 py-1 text-sm font-medium bg-darker text-white">
+                {/* <span className="inline-flex items-center px-3 py-1 text-sm font-medium text-white bg-darker">
                   <Countdown date={new Date("2021-05-20T00:00:00Z")}>
                     <>
                       <div className="relative">
@@ -96,8 +97,8 @@ export const Navigation = ({ current }) => {
           </div>
         </div>
         {/* Bottom Navigation */}
-        <div className="mt-6 py-4 brand-font">
-          <div className="flex flex-row space-x-2 px-11 pb-4">
+        <div className="py-4 mt-6 brand-font">
+          <div className="flex flex-row pb-4 space-x-2 px-11">
             <a href="https://discord.gg/MYFm8nn4QB" target="_blank" rel="noopener noreferrer">
               <Image src="/images/discord-icon.jpg" width={"30px"} height={"30px"} />
             </a>

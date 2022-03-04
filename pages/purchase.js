@@ -8,7 +8,7 @@ const ArtistPage = () => {
       {/* override background */}
       <div className="bg-white">
         <div
-          className="block relative w-full z-10 aspect-w-3 aspect-h-2"
+          className="relative z-10 block w-full aspect-w-3 aspect-h-2"
           style={{
             backgroundImage: `url('/images/sake-white-box.jpg')`,
             backgroundPosition: "center",
@@ -16,12 +16,12 @@ const ArtistPage = () => {
             backgroundRepeat: "no-repeat",
           }}
         ></div>
-        <div className="max-w-4xl mx-auto py-10">
-          <div className="w-full mx-auto text-center pb-10">
-            <div className="brand-font inline-block text-white text-2xl px-6 md:px-8 py-4  bg-black">888 BOTTLES</div>
+        <div className="max-w-4xl py-10 mx-auto">
+          <div className="w-full pb-10 mx-auto text-center">
+            <div className="inline-block px-6 py-4 text-2xl text-white bg-black brand-font md:px-8">888 BOTTLES</div>
           </div>
-          <div className="px-10 lg:px-0 grid grid-cols-1 gap-16 md:grid-cols-2 md:gap-28 py-10">
-            <div className="brand-font text-black text-lg flex flex-col space-y-4">
+          <div className="grid grid-cols-1 gap-16 px-10 py-10 lg:px-0 md:grid-cols-2 md:gap-28">
+            <div className="flex flex-col space-y-4 text-lg text-black brand-font">
               <p>On May 20th, the Dutch auction to own 1 of 888 bottles of SAKΞ begins on MISO launchpad.</p>
               <p>
                 To receive a bottle of SAKΞ, you must own and redeem at least 1 of 888 SAK3 (SAK3) tokens. Each token
@@ -30,7 +30,7 @@ const ArtistPage = () => {
                 SAKΞ (e.g. 1.0 SAK3 can be redeemed for a bottle; 0.77 SAK3 cannot).
               </p>
             </div>
-            <div className="text-black text-lg flex flex-col space-y-4">
+            <div className="flex flex-col space-y-4 text-lg text-black">
               <p>
                 5月20日、MISO媒体上にて、888本のSAKΞのうちの一本を獲得するためのオランダのオークションが始まります。
               </p>
@@ -42,26 +42,26 @@ const ArtistPage = () => {
             </div>
           </div>
         </div>
-        <div className="z-10 relative max-w-4xl mx-auto">
+        <div className="relative z-10 max-w-4xl mx-auto">
           <Image src="/images/sake-apparel.jpg" width={"958px"} height={"474px"} />
         </div>
         <div className="max-w-4xl mx-auto">
-          <div className="px-10 lg:px-0 grid grid-cols-1 gap-16 md:grid-cols-2 md:gap-28 py-10">
-            <div className="brand-font text-black text-lg flex flex-col space-y-4">
+          <div className="grid grid-cols-1 gap-16 px-10 py-10 lg:px-0 md:grid-cols-2 md:gap-28">
+            <div className="flex flex-col space-y-4 text-lg text-black brand-font">
               <p>
                 You can redeem one or more SAK3 tokens for a bottle once SAKΞ is finished brewing in late August. When
                 you redeem your token, your SAKΞ is bottled by hand and shipped fresh almost anywhere in the world
                 courtesy of Sake Samurai Elliot Faber.
               </p>
             </div>
-            <div className="text-black text-lg flex flex-col space-y-4">
+            <div className="flex flex-col space-y-4 text-lg text-black">
               <p>
                 8月下旬にSAKΞの醸造が終了次第、SAK3トークンを購入することができます。トークンを購入している頃には、SAKΞは手作業での瓶詰め作業を経て新鮮な状態のまま、酒サムライエリオット・フェイバーの名の下に、世界中へ届けられます。{" "}
               </p>
             </div>
           </div>
         </div>
-        <div className="z-10 relative max-w-4xl mx-auto">
+        <div className="relative z-10 max-w-4xl mx-auto">
           <Image src="/images/sake-pattern.jpg" width={"958px"} height={"474px"} />
         </div>
       </div>
