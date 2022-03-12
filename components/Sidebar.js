@@ -3,10 +3,11 @@ import Image from "next/image";
 import Link from "next/link";
 
 import Countdown from "react-countdown";
+import { SAKE_SWAP_URL } from "../constants";
 
 const navigation = [
   { name: "WELCOME", href: "/", id: "welcome" },
-  { name: "NFT", href: "/burn", id: "burn" },
+  { name: "NFT", href: "/nft", id: "nft" },
   { name: "TOKEN", href: "/token", id: "token" },
   { name: "SAKE", href: "/sake", id: "sake" },
   { name: "BREWERY", href: "/brewery", id: "brewery" },
@@ -62,7 +63,7 @@ export const Navigation = ({ current }) => {
           <div className="flex flex-row items-center">
             <div className={"bg-black w-8 h-2 mr-4"} />
             <a
-              href="https://app.sushi.com/swap?outputCurrency=0xe9f84de264e91529af07fa2c746e934397810334"
+              href={SAKE_SWAP_URL}
               target="_blank"
               rel="noopener noreferrer"
             >

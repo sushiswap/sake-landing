@@ -1,5 +1,6 @@
 const colors = require("tailwindcss/colors");
 module.exports = {
+  mode: "jit",
   purge: ["./pages/**/*.{js,ts,jsx,tsx}", "./components/**/*.{js,ts,jsx,tsx}"],
   darkMode: false, // or 'media' or 'class'
   theme: {
@@ -11,6 +12,7 @@ module.exports = {
         disabled: "#2d2d2d",
         golden: "#6f613d",
         pinkish: "#de5770",
+        gray: "#141414",
       },
       lineHeight: {
         12: "3rem",
@@ -33,5 +35,8 @@ module.exports = {
   variants: {
     extend: {},
   },
-  plugins: [require("@tailwindcss/forms"), require("@tailwindcss/aspect-ratio")],
+  plugins: [
+    require("@tailwindcss/forms"),
+    require("@tailwindcss/aspect-ratio"),
+  ],
 };

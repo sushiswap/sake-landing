@@ -1,0 +1,8 @@
+export const SAKE_SWAP_URL =
+  "https://app.sushi.com/swap?outputCurrency=0xe9f84de264e91529af07fa2c746e934397810334";
+export const OPENSEA_NFT_URL =
+  "https://opensea.io/assets/0x12f01af7fbeafb088e1d3384bff67390f41e8404/1";
+
+export const SAKE_BURNER_ADDRESS = "0x5744341e383d7981627280E9449EB4ae7E11Be50";
+export const SAKE_TOKEN_ADDRESS = "0xe9F84dE264E91529aF07Fa2C746e934397810334";
+export const SAKE_NFT_ADDRESS = "0x12F01AF7FBEAFB088E1d3384BFf67390f41E8404";
